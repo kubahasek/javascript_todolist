@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: beige;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  color: darkcyan;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+.completed {
+  background-color: green;
+}
+
+.container {
+  width: 80%;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.btn {
+  color: white;
+  background-color: darkcyan;
+  width: 7%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-delete {
+  cursor: pointer;
+}
+
+.todo-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputbox {
+  margin: 1%;
+  border: 1px solid grey;
+  width: 50%;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.todos-container {
+  margin-top: 2rem;
+}
+
+.todo-item {
+  background-color: darkcyan;
+  display: flex;
+  margin: 0 auto;
+  width: 45%;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.todo-item + .todo-item {
+  margin-top: 1rem;
+}
+
+.todo-content {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.todo-content-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-item h2 {
+  margin-left: 1rem;
+}
