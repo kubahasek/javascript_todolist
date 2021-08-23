@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "personal": {
+      "0": "This is a personal task"
+    },
+    "work": {
+      "0": "This is a work task"
+    }
+  }
+}
