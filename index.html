@@ -14,25 +14,15 @@
             <div class="text">
                 <h1>TODO List</h1>
                 <p>Enter text into the input field to enter in a new task</p>
-                <p>If you want to complete a task, click the checkbox on the left</p>
+                <p>If you want to complete a task, click the checkbox on the left. A task that is completed will
+                    automatically dissapear after 3 seconds</p>
                 <p>To remove a task click the X on the right</p>
             </div>
             <div class="todo-input">
                 <input class="inputbox" placeholder="New task..." type="text">
-                <button class="btn">Add</button>
+                <button class="btn" id="addBtn">Add</button>
             </div>
             <div class="todos-container">
-                <div class="todo-item">
-                    <div class="todo-content-container">
-                        <div class="todo-content">
-                            <input class="checkbox" type="checkbox" name="done" id="done">
-                            <h2>task</h2>
-                        </div>
-                        <div class="todo-content">
-                            <i class="fas fa-trash fa-lg btn-delete"></i>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </main>

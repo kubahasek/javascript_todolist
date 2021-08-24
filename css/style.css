@@ -17,10 +17,6 @@ p {
   font-size: 1.4rem;
 }
 
-.completed {
-  background-color: green;
-}
-
 .container {
   width: 80%;
   max-width: 1440px;
@@ -36,6 +32,10 @@ p {
   height: 35px;
   border-radius: 5px;
   border: 1px solid grey;
+}
+
+.btn:hover {
+  cursor: pointer;
 }
 
 .checkbox {
@@ -66,12 +66,18 @@ p {
 }
 
 .todo-item {
+  transition: background-color 0.3s;
   background-color: darkcyan;
   display: flex;
   margin: 0 auto;
   width: 45%;
   height: 50px;
   border-radius: 5px;
+}
+
+.completed {
+  transition: background-color 0.3s;
+  background-color: green;
 }
 
 .todo-item + .todo-item {
